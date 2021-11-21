@@ -33,7 +33,7 @@ determine the exact padding."
   "A dark theme inspired by Acario"
 
   ;; name        default   256         16
-  ((bg         '("#650075" "color-233" "black"        )) ;; diff Bg
+  ((bg         '("#650075" "color-233" "black"        )) ;;diff Bg
    (bg-alt     '("#040408" "color-232" "brightblack"  ))
    (base0      '("#0F1019" "color-234" "black"        ))
    (base1      '("#121212" "color-233" "brightblack"  ))
@@ -49,7 +49,7 @@ determine the exact padding."
 
    (grey       base5)
 
-   (red        '("#FF1441" "color-167" "red"          )) ;; DIff red
+   (red        '("#FF1441" "color-167" "red"          )) ;;diff red
    (green      '("#79D836" "color-113" "green"        ))
    (yellow     '("#FF25DD" "color-179" "yellow"       )) ;;Not Yellow
    (blue       '("#3679D8" "color-68"  "blue"         ))
