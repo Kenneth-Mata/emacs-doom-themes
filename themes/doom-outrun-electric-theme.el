@@ -50,7 +50,7 @@ determine the exact padding."
    (grey       '("#546A90" "#546A90" "gray"          ))
    (red        '("#e61f44" "#e61f44" "red"          ))
    (orange     '("#cf433e" "#ff9b50" "brightred"    ))
-   (green      '("#a7da1e" "#a7da1e" "green"        ))
+   (green      '("#12aa1a" "#12aa1a" "green"        ))
    (teal       '("#A875FF" "#A875FF" "brightgreen"  ))
    (yellow     '("#e5295e" "#e5295e" "yellow"       ))
    (blue       '("#1ea8fc" "#1ea8fc" "brightblue"   ))
