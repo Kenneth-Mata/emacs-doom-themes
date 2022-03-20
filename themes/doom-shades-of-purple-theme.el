@@ -81,7 +81,7 @@ Can be an integer to determine the exact padding."
    (light-magenta '("#baacff" "#baacff" "brightmagenta"))
    (magenta       '("#ff9d00" "#ff9d00" "brightmagenta"))
    (violet        '("#f989d3" "#f989d3" "magenta"))
-   (light-pink    '("#fb94ff" "#fb94ff" "magenta"))
+   (light-pink    '("#85001f" "#85001f" "magenta"))
    (pink          '("#ff628c" "#ff628c" "magenta"))
    (cyan          '("#ff628c" "#ff628c" "brightcyan"))
    (dark-cyan     '("#9effff" "#9effff" "cyan"))
