@@ -45,7 +45,7 @@ Can be an integer to determine the exact padding."
   "A dark theme inspired by VS code's shades-of-purple"
 
   ;; name        default   256       16
-  ((bg         '("#2d2b55" "#2d2b55"  "black"))
+  ((bg         '("#500973" "#500973"  "black"))
    (bg-alt     '("#1e1e3f" "#1e1e3f" "black"))
    (base0      '("#161a2a" "#161a2a" "black"))
    (base1      '("#191a2a" "#191a2a" "brightblack"))
@@ -64,7 +64,7 @@ Can be an integer to determine the exact padding."
 
    (grey base5)
 
-   (dark-red      '("#ff5370" "#ff5370" "red"))
+   (dark-red      '("#690718" "#690718" "red"))
    (red           '("#ff000d" "#ff000d" "red"))
    (light-red     '("#ff98a4" "#ff98a4" "brightred"))
    (orange        '("#ff9d00" "#ff9d00" "brightred"))
@@ -74,7 +74,7 @@ Can be an integer to determine the exact padding."
    (dark-teal     '("#37fea1" "#37fea1" "green"))
    (teal          '("#ff628c" "#ff628c" "brightgreen"))
    (light-teal    '("#7af8ca" "#7af8ca" "brightgreen"))
-   (yellow        '("#fad000" "#fad000" "brightyellow"))
+   (yellow        '("#AD2434" "#AD2434" "brightyellow"))
    (blue          '("#82aaff" "#82aaff" "brightblue"))
    (dark-blue     '("#4976eb" "#4976eb" "brightblue"))
    (light-blue    '("#50c4fa" "#50c4fa" "blue"))
