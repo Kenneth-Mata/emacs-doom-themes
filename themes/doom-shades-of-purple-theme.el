@@ -64,7 +64,7 @@ Can be an integer to determine the exact padding."
 
    (grey base5)
 
-   (dark-red      '("#690718" "#690718" "red"))
+   (dark-red      '("#ff5370" "#ff5370" "red"))
    (red           '("#ff000d" "#ff000d" "red"))
    (light-red     '("#ff98a4" "#ff98a4" "brightred"))
    (orange        '("#ff9d00" "#ff9d00" "brightred"))
@@ -74,18 +74,18 @@ Can be an integer to determine the exact padding."
    (dark-teal     '("#37fea1" "#37fea1" "green"))
    (teal          '("#ff628c" "#ff628c" "brightgreen"))
    (light-teal    '("#7af8ca" "#7af8ca" "brightgreen"))
-   (yellow        '("#AD2434" "#AD2434" "brightyellow"))
+   (yellow        '("#fad000" "#fad000" "brightyellow"))
    (blue          '("#82aaff" "#82aaff" "brightblue"))
    (dark-blue     '("#4976eb" "#4976eb" "brightblue"))
    (light-blue    '("#50c4fa" "#50c4fa" "blue"))
    (light-magenta '("#baacff" "#baacff" "brightmagenta"))
    (magenta       '("#ff9d00" "#ff9d00" "brightmagenta"))
    (violet        '("#f989d3" "#f989d3" "magenta"))
-   (light-pink    '("#85001f" "#85001f" "magenta"))
+   (light-pink    '("#fb94ff" "#fb94ff" "magenta"))
    (pink          '("#ff628c" "#ff628c" "magenta"))
    (cyan          '("#ff628c" "#ff628c" "brightcyan"))
    (dark-cyan     '("#9effff" "#9effff" "cyan"))
-   (purple        '("#ff2929" "#ff2929" "magenta"))
+   (purple        '("#b362ff" "#b362ff" "magenta"))
 
    ;; face categories -- required for all themes
    (highlight      blue)
