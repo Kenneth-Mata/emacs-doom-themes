@@ -46,7 +46,7 @@ Can be an integer to determine the exact padding."
 
   ;; name        default   256       16
   ((bg         '("#500973" "#500973"  "black"))
-   (bg-alt     '("#1e1e3f" "#1e1e3f" "black"))
+   (bg-alt     '("#9e198a" "#9e198a" "black"))
    (base0      '("#161a2a" "#161a2a" "black"))
    (base1      '("#191a2a" "#191a2a" "brightblack"))
    (base2      '("#1e2030" "#1e2030" "brightblack"))
@@ -85,7 +85,7 @@ Can be an integer to determine the exact padding."
    (pink          '("#ff628c" "#ff628c" "magenta"))
    (cyan          '("#ff628c" "#ff628c" "brightcyan"))
    (dark-cyan     '("#9effff" "#9effff" "cyan"))
-   (purple        '("#b362ff" "#b362ff" "magenta"))
+   (purple        '("#ff2929" "#ff2929" "magenta"))
 
    ;; face categories -- required for all themes
    (highlight      blue)
