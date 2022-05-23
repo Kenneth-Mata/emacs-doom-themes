@@ -33,7 +33,7 @@ determine the exact padding."
   "A vibrant, neon colored theme inspired by VS Code Outrun Electric."
 
   ;; name        default   256       16
-  ((bg         '("#17002f" "#17002f" nil           ))
+  ((bg         '("#0a0c20" "#0a0c20" nil           ))
    (bg-alt     '("#090819" "#090819" nil           ))
    (base0      '("#131033" "#131033" "black"       ))
    (base1      '("#1f1147" "#161130" "brightblack" ))
