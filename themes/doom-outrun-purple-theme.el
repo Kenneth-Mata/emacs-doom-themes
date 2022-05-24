@@ -1,36 +1,36 @@
-;;; doom-outrun-electric-theme.el --- inspired by VS Code Outrun Electric -*- lexical-binding: t; no-byte-compile: t; -*-
+;;; doom-outrun-purple-theme.el --- inspired by VS Code Outrun Purple -*- lexical-binding: t; no-byte-compile: t; -*-
 (require 'doom-themes)
 
 ;;
-(defgroup doom-outrun-electric-theme nil
+(defgroup doom-outrun-purple-theme nil
   "Options for doom-themes."
   :group 'doom-themes)
 
-(defcustom doom-outrun-electric-brighter-modeline nil
+(defcustom doom-outrun-purple-brighter-modeline nil
   "If non-nil, more vivid colors will be used to style the mode-line."
-  :group 'doom-outrun-electric-theme
+  :group 'doom-outrun-purple-theme
   :type 'boolean)
 
-(defcustom doom-outrun-electric-brighter-comments nil
+(defcustom doom-outrun-purple-brighter-comments nil
   "If non-nil, comments will be highlighted in more vivid colors."
-  :group 'doom-outrun-electric-theme
+  :group 'doom-outrun-purple-theme
   :type 'boolean)
 
-(defcustom doom-outrun-electric-comment-bg doom-outrun-electric-brighter-comments
+(defcustom doom-outrun-purple-comment-bg doom-outrun-purple-brighter-comments
   "If non-nil, comments will have a subtle, darker background. Enhancing their
 legibility."
-  :group 'doom-outrun-electric-theme
+  :group 'doom-outrun-purple-theme
   :type 'boolean)
 
-(defcustom doom-outrun-electric-padded-modeline doom-themes-padded-modeline
+(defcustom doom-outrun-purple-padded-modeline doom-themes-padded-modeline
   "If non-nil, adds a 4px padding to the mode-line. Can be an integer to
 determine the exact padding."
-  :group 'doom-outrun-electric-theme
+  :group 'doom-outrun-purple-theme
   :type '(choice integer boolean))
 
 ;;
-(def-doom-theme doom-outrun-electric
-  "A vibrant, neon colored theme inspired by VS Code Outrun Electric."
+(def-doom-theme doom-outrun-purple
+  "A vibrant, neon colored theme inspired by VS Code Outrun Purple."
 
   ;; name        default   256       16
   ((bg         '("#17002f" "#17002f" nil           ))
@@ -65,7 +65,7 @@ determine the exact padding."
    (vertical-bar   (doom-darken base1 0.5))
    (selection      dark-blue)
    (builtin        blue)
-   (comments       (if doom-outrun-electric-brighter-comments blue grey))
+   (comments       (if doom-outrun-purple-brighter-comments blue grey))
    (doc-comments   teal)
    (constants      violet)
    (functions      cyan)
@@ -86,10 +86,10 @@ determine the exact padding."
 
    ;; custom categories
    (hidden     `(,(car bg) "black" "black"))
-   (-modeline-bright doom-outrun-electric-brighter-modeline)
+   (-modeline-bright doom-outrun-purple-brighter-modeline)
    (-modeline-pad
-    (when doom-outrun-electric-padded-modeline
-      (if (integerp doom-outrun-electric-padded-modeline) doom-outrun-electric-padded-modeline 4)))
+    (when doom-outrun-purple-padded-modeline
+      (if (integerp doom-outrun-purple-padded-modeline) doom-outrun-purple-padded-modeline 4)))
 
    (modeline-fg     nil)
    (modeline-fg-alt base5)
@@ -108,7 +108,7 @@ determine the exact padding."
 
   ;;;; Base theme face overrides
   (((font-lock-comment-face &override)
-    :background (if doom-outrun-electric-comment-bg (doom-lighten bg 0.05)))
+    :background (if doom-outrun-purple-comment-bg (doom-lighten bg 0.05)))
    ((font-lock-keyword-face &override) :weight 'bold)
    ((font-lock-constant-face &override) :weight 'bold)
    ((font-lock-function-name-face &override) :foreground functions)
@@ -173,4 +173,4 @@ determine the exact padding."
   ;; ()
   )
 
-;;; doom-outrun-electric-theme.el ends here
+;;; doom-outrun-purple-theme.el ends here
