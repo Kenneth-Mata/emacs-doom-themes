@@ -44,8 +44,8 @@ determine the exact padding."
    (base6      '("#6A6EA3" "#6A6EA3" "brightblack" ))
    (base7      '("#6564D1" "#6564D1" "brightblack" ))
    (base8      '("#919ad9" "#919ad9" "white"       ))
-   (fg-alt     '("#7984D1" "#7984D1" "white"       ))
-   (fg         '("#3EA9B7" "#3EA9B7" "brightwhite" ))
+   (fg-alt     '("#D179B0" "#D179B0" "white"       ))
+   (fg         '("#91bdd8" "#91bdd8" "brightwhite" ))
 
    (grey       '("#546A90" "#546A90" "gray"          ))
    (red        '("#e61f44" "#e61f44" "red"          ))
