@@ -61,9 +61,9 @@ determine the exact padding."
 
    (grey       base5)
 
-   (red        '("#D83441" "color-167" "red"          ))
+   (red        '("#AF002F" "color-167" "red"          ))
    (green      '("#79D836" "color-113" "green"        ))
-   (yellow     '("#D8B941" "color-179" "yellow"       ))
+   (yellow     '("#FF2500" "color-179" "yellow"       ))
    (blue       '("#3679D8" "color-68"  "blue"         ))
    (magenta    '("#8041D8" "color-98"  "magenta"      ))
    (cyan       '("#36D8BD" "color-79"  "cyan"         ))
